@@ -1,0 +1,335 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+body {
+				background: url(images/back_all.gif) ; 
+                -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+				
+	
+	font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#content
+{
+	margin: 0 auto;
+	width: 910px;
+	text-align: left;
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+}
+
+
+nav ul{
+    list-style: none;
+    background-image:-webkit-linear-gradient(top,#EBEBEB,#D7D7D7);
+    background-color:#FFF;
+    box-shadow:0 1px 3px rgba(0,0,0,.5);
+    margin: 0 auto;
+	
+}
+nav ul:after{
+    content: "";
+    display: block;
+    clear: both;
+	
+}
+nav ul li{
+    float: left;
+    position: relative;
+	
+}
+nav ul li a{
+    color: #111;
+    display: block;
+    font-size: 14px;
+	text-decoration:none;
+	
+}
+nav ul ul ul{
+    position: relative;
+    top: 100%;
+    background: white;
+	
+}
+nav ul ul li{
+    float: none;
+	
+}
+nav ul ul{
+    position: absolute;
+    top: 100%;
+    display: none;
+	
+}
+nav ul li:hover > ul{
+    display: block;
+	
+}
+nav ul li:hover > a, nav ul ul li:hover > a{
+    color: white;
+    background-image:-webkit-linear-gradient(top,#506def,#2041de);
+    background-color:#506def;
+	
+}
+nav ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+	
+}
+
+	
+#back
+{
+
+width: 890px;
+}
+
+#header {
+	height: 427px;
+	text-align: left;
+	background: url(images/top1.gif) repeat-x;		
+}
+
+#menu
+{
+z-index:99;
+margin: auto;
+
+position:relative; /*Make the container moveable*/
+   /*Main bar total width*/
+font-size:0.85em;
+ /*Padding between the bottom of your mainbar and the rest of your page */
+
+width: 886px;
+height: 98px;
+padding-left: 418px;
+padding-top: 72px;
+}
+
+#menu1
+{
+width: 886px;
+height: 18px;
+padding-left: 418px;
+padding-top: 12px;
+
+}
+
+#menu ul {
+	list-style: none;	
+}
+
+#menu li {
+	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 117px;
+	height: 27px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #595959;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	background: url(images/button.gif) no-repeat;
+}
+
+#menu a:hover {
+	width: 117px;
+    height: 27px;
+	padding-top: 10px;
+	color: #FFffff;
+	background: url(images/button_r.gif) no-repeat;
+	text-decoration: underline;
+}
+
+
+#logo {
+	background:url(images/tanah_1.jpg) no-repeat;
+width: 960px;
+height: 321px;
+text-align:  right;
+padding-right: 30px;
+padding-top: 30px;
+}
+
+
+#logo a {
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #ffffff;
+}
+#logo H2 a
+{
+font-size: 12px;
+}
+
+
+#main
+{
+background: #ffffff url(images/back_blue.gif) repeat-x;
+padding-top: 60px;
+padding-left: 20px;
+}
+
+#left
+{
+	width: 276px;
+}
+
+#left H3
+{
+width: 191px;
+height: 31px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 25px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) no-repeat;
+}
+
+
+
+#left H4
+{
+padding-left: 20px;
+color: #5D87A0;
+font-size: 11px;
+}
+
+#left p
+{
+font-size: 11px;
+padding: 10px;
+}
+
+#left ul {
+	list-style: none;
+	
+}
+
+
+
+#left li ul {
+	border: 0px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+#left li li {
+	padding: 4px 20px;
+    background: url(images/small.gif) no-repeat left;
+}
+
+#left a {
+	color: #5D87A0;
+}
+#left a:visited {
+	color: #5D87A0;
+}
+
+
+#right
+{
+float: right;
+width: 520px;
+padding-right: 10px;
+}
+
+#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #5D87A0;
+}
+
+#right a
+{
+color: #5D87A0;
+text-decoration: none;
+}
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #5D87A0;
+}
+.date {
+	text-align: right;
+	color: #5D87A0;
+	font-size: 11px;
+}
+
+.date a {
+	color: #5D87A0;
+}
+
+
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	background: #ffffff url(images/back_blue.gif) repeat-x;
+	border-top: 4px solid #2C5C89;
+    height: 50px;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #595959;
+
+}
+
+#footer a {
+	color: #595959;
+}
+.m1  {
+	background: url(images/title_back.gif) no-repeat;
+	padding-top: 20px;
+}

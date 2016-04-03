@@ -1,0 +1,264 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+body {
+	background: url(images/back_all.gif) no-repeat center center fixed; 
+                -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+				
+	
+	font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#content
+{
+	margin: 0 auto;
+	width: 1100px;
+	text-align: left;
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+}
+
+#back
+{
+
+width: 1100px;
+}
+
+#header {
+	height: 427px;
+	text-align: left;
+	background: url(images/top1.gif) repeat-x;		
+}
+
+#menu
+{
+width: 616px;
+height: 38px;
+padding-left: 485px;
+padding-top: 72px;
+}
+
+#menu ul {
+	list-style: none;	
+}
+
+#menu li {
+	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 147px;
+	height: 27px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #595959;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	background: url(images/button.gif) no-repeat;
+}
+
+#menu a:hover {
+	width: 147px;
+    height: 27px;
+	padding-top: 10px;
+	color: #FFffff;
+	background: url(images/button_r.gif) no-repeat;
+	text-decoration: underline;
+}
+
+
+#logo {
+background: url(images/tugu_malang.jpg) no-repeat;
+width: 1100px;
+height: 281px;
+text-align:  right;
+padding-right: 30px;
+padding-top: 30px;
+}
+
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #ffffff;
+}
+#logo H2 a
+{
+font-size: 12px;
+}
+
+
+#main
+{
+background: #ffffff url(images/back_blue.gif) repeat-x;
+padding-top: 60px;
+padding-left: 20px;
+}
+
+#left
+{
+	width: 276px;
+	border-style: solid;
+border-color: #039;
+border-width:2px;
+}
+
+#left H3
+{
+width: 191px;
+height: 31px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 25px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) no-repeat;
+}
+
+
+
+#left H4
+{
+padding-left: 20px;
+color: #5D87A0;
+font-size: 11px;
+}
+
+#left p
+{
+font-size: 11px;
+padding: 10px;
+}
+
+#left ul {
+	list-style: none;
+	
+}
+
+
+
+#left li ul {
+	border: 0px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+#left li li {
+	padding: 4px 20px;
+    background: url(images/small.gif) no-repeat left;
+}
+
+#left a {
+	color: #5D87A0;
+}
+#left a:visited {
+	color: #5D87A0;
+}
+
+
+#right
+{
+float: right;
+width: 750px;
+padding-right: 10px;
+border-style: solid;
+border-color: #039;
+border-width:2px;
+}
+
+#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #5D87A0;
+}
+
+#right a
+{
+color: #5D87A0;
+text-decoration: none;
+}
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #5D87A0;
+}
+.date {
+	text-align: right;
+	color: #5D87A0;
+	font-size: 11px;
+}
+
+.date a {
+	color: #5D87A0;
+}
+
+
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	background: #ffffff url(images/back_blue.gif) repeat-x;
+	border-top: 4px solid #2C5C89;
+    height: 50px;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #595959;
+
+}
+
+#footer a {
+	color: #595959;
+}
+.m1  {
+	background: url(images/title_back.gif) no-repeat;
+	padding-top: 20px;
+}
